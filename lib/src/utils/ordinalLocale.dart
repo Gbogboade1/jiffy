@@ -1,6 +1,5 @@
 List<String> localeOrdinals = [
   'en',
-  'vi',
   'es',
   'fr',
   'frch',
@@ -20,7 +19,8 @@ List<String> localeOrdinals = [
   'dech',
   'id',
   'tr',
-  'sv'
+  'sv',
+  'vi',
 ];
 
 List<String> getOrdinalLocaleDates(String locale) {
@@ -46,6 +46,7 @@ List<String> getOrdinalLocaleDates(String locale) {
     localeOrdinals[18]: ['', '', '', ''],
     localeOrdinals[19]: ['.', '.', '.', '.'],
     localeOrdinals[20]: ['', '', '', ''],
+    localeOrdinals[21]: ['', '', '', ''],
   };
   return ordinals[locale];
 }

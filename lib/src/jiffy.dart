@@ -96,8 +96,8 @@ class Jiffy {
   }
 
   static const _sundayStartOfWeek = [
-    'en',
     'vi',
+    'en',
     'id',
     'enca',
     'enil',

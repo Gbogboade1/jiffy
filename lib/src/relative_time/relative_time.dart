@@ -19,9 +19,9 @@ import 'locales/zh_locale.dart';
 import 'lookup_messages.dart';
 
 Map<String, LookUpMessages> _lookupMessagesMap = {
-  'en': EnLocale(),
   'vi': ViLocale(),
   'vn': ViLocale(),
+  'en': EnLocale(),
   'id': IdLocale(),
   'ensg': EnLocale(),
   'enau': EnLocale(),
