@@ -1,5 +1,6 @@
 List<String> localeOrdinals = [
   'en',
+  'vi',
   'es',
   'fr',
   'frch',

@@ -97,6 +97,7 @@ class Jiffy {
 
   static const _sundayStartOfWeek = [
     'en',
+    'vi',
     'id',
     'enca',
     'enil',
@@ -120,7 +121,7 @@ class Jiffy {
     'arma',
   ];
 
-  static String _defaultLocale = 'en';
+  static String _defaultLocale = 'vi';
   static Future<String> locale([String locale]) async {
     if (locale != null) {
       await initializeDateFormatting();
