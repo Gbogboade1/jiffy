@@ -11,6 +11,7 @@ import 'package:jiffy/src/relative_time/locales/ko_locale.dart';
 import 'package:jiffy/src/relative_time/locales/pl_locale.dart';
 import 'package:jiffy/src/relative_time/locales/pt_locale.dart';
 import 'package:jiffy/src/relative_time/locales/ru_locale.dart';
+import 'package:jiffy/src/relative_time/locales/vi_locale.dart';
 import 'package:jiffy/src/relative_time/locales/zh_locale.dart';
 import 'package:jiffy/src/relative_time/locales/tr_locale.dart';
 import 'package:jiffy/src/relative_time/locales/sv_locale.dart';
@@ -19,6 +20,7 @@ import 'package:jiffy/src/utils/replace.dart';
 
 Map<String, LookUpMessages> _lookupMessagesMap = {
   'en': EnLocale(),
+  'vi': ViLocale(),
   'id': IdLocale(),
   'ensg': EnLocale(),
   'enau': EnLocale(),
@@ -62,7 +64,7 @@ Map<String, LookUpMessages> _lookupMessagesMap = {
 
 String format(String locale, DateTime date1, [DateTime date2]) {
   final messages =
-      _lookupMessagesMap[replaceLocaleHyphen(locale)] ?? EnLocale();
+      _lookupMessagesMap[replaceLocaleHyphen(locale)] ?? ViLocale();
   final _date2 = date2 ?? DateTime.now();
   final _allowFromNow = _date2.isBefore(date1);
   var elapsed = _date2.millisecondsSinceEpoch - date1.millisecondsSinceEpoch;
