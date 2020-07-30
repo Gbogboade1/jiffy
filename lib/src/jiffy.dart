@@ -2,13 +2,14 @@ import 'dart:math';
 
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
-import 'package:jiffy/src/enums/units.dart';
-import 'package:jiffy/src/utils/exception.dart';
-import 'package:jiffy/src/relative_time/relative_time.dart' as relative;
-import 'package:jiffy/src/utils/normalize_units.dart';
-import 'package:jiffy/src/utils/ordinalLocale.dart';
-import 'package:jiffy/src/utils/regex.dart';
-import 'package:jiffy/src/utils/replace.dart';
+
+import '../jiffy.dart';
+import 'utils/exception.dart';
+import 'utils/normalize_units.dart';
+import 'utils/ordinalLocale.dart';
+import 'utils/regex.dart';
+import 'utils/replace.dart';
+import 'relative_time/relative_time.dart' as relative;
 
 class Jiffy {
   DateTime _dateTime;

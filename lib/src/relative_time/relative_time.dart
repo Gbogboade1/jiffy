@@ -1,26 +1,27 @@
-import 'package:jiffy/src/relative_time/locales/ar_locale.dart';
-import 'package:jiffy/src/relative_time/locales/de_locale.dart';
-import 'package:jiffy/src/relative_time/locales/en_locale.dart';
-import 'package:jiffy/src/relative_time/locales/es_locale.dart';
-import 'package:jiffy/src/relative_time/locales/fr_locale.dart';
-import 'package:jiffy/src/relative_time/locales/hi_locale.dart';
-import 'package:jiffy/src/relative_time/locales/id_locale.dart';
-import 'package:jiffy/src/relative_time/locales/it_locale.dart';
-import 'package:jiffy/src/relative_time/locales/ja_locale.dart';
-import 'package:jiffy/src/relative_time/locales/ko_locale.dart';
-import 'package:jiffy/src/relative_time/locales/pl_locale.dart';
-import 'package:jiffy/src/relative_time/locales/pt_locale.dart';
-import 'package:jiffy/src/relative_time/locales/ru_locale.dart';
-import 'package:jiffy/src/relative_time/locales/vi_locale.dart';
-import 'package:jiffy/src/relative_time/locales/zh_locale.dart';
-import 'package:jiffy/src/relative_time/locales/tr_locale.dart';
-import 'package:jiffy/src/relative_time/locales/sv_locale.dart';
-import 'package:jiffy/src/relative_time/lookup_messages.dart';
-import 'package:jiffy/src/utils/replace.dart';
+import '../utils/replace.dart';
+import 'locales/ar_locale.dart';
+import 'locales/de_locale.dart';
+import 'locales/en_locale.dart';
+import 'locales/es_locale.dart';
+import 'locales/fr_locale.dart';
+import 'locales/hi_locale.dart';
+import 'locales/id_locale.dart';
+import 'locales/it_locale.dart';
+import 'locales/ja_locale.dart';
+import 'locales/ko_locale.dart';
+import 'locales/pl_locale.dart';
+import 'locales/pt_locale.dart';
+import 'locales/ru_locale.dart';
+import 'locales/sv_locale.dart';
+import 'locales/tr_locale.dart';
+import 'locales/vi_locale.dart';
+import 'locales/zh_locale.dart';
+import 'lookup_messages.dart';
 
 Map<String, LookUpMessages> _lookupMessagesMap = {
   'en': EnLocale(),
   'vi': ViLocale(),
+  'vn': ViLocale(),
   'id': IdLocale(),
   'ensg': EnLocale(),
   'enau': EnLocale(),

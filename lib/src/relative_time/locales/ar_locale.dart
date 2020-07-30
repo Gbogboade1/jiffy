@@ -1,5 +1,5 @@
-import 'package:jiffy/src/relative_time/lookup_messages.dart';
-import 'package:jiffy/src/utils/replace.dart';
+import '../../utils/replace.dart';
+import '../lookup_messages.dart';
 
 class ArLyLocale extends LookUpMessages {
   bool replaceNum;

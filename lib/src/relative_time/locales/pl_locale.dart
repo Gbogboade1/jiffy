@@ -1,4 +1,4 @@
-import 'package:jiffy/src/relative_time/lookup_messages.dart';
+import '../lookup_messages.dart';
 
 class PlLocale extends LookUpMessages {
   @override

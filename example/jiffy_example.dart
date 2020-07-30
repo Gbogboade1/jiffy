@@ -1,5 +1,5 @@
-import 'package:jiffy/jiffy.dart';
-import 'package:jiffy/src/enums/units.dart';
+
+import '../lib/jiffy.dart';
 
 main() async {
 //  FORMATTING DATES

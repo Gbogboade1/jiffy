@@ -1,4 +1,4 @@
-import 'package:jiffy/jiffy.dart';
+import 'package:jiffy_vi/jiffy.dart';
 import 'package:test/test.dart';
 
 void main() {

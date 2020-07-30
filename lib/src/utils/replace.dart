@@ -1,4 +1,4 @@
-import 'package:jiffy/src/utils/regex.dart';
+import 'regex.dart';
 
 String replaceToLocaleNum(String input, String locale) {
   var localeNumbers = {
